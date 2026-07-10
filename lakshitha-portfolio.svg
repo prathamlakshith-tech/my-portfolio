@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs>
+    <linearGradient id="hero" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#172a4d"/><stop offset="1" stop-color="#334f83"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#172a4d" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1080" height="1440" fill="#fcf9f4"/>
+  <circle cx="965" cy="95" r="170" fill="#f5b9b3" opacity=".7"/>
+  <circle cx="105" cy="530" r="115" fill="#d9cff3" opacity=".75"/>
+  <path d="M0 330 C220 260 385 425 595 330 S900 240 1080 365 L1080 0 L0 0Z" fill="url(#hero)"/>
+  <text x="72" y="105" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="5" fill="#f6c36b">STUDENT PORTFOLIO</text>
+  <text x="72" y="198" font-family="Georgia, serif" font-size="78" font-weight="700" fill="white">Lakshitha</text>
+  <text x="76" y="250" font-family="Arial, sans-serif" font-size="27" fill="#e4eafb">Aspiring Business Management Student</text>
+  <rect x="72" y="280" width="490" height="48" rx="24" fill="#ffffff" opacity=".16"/>
+  <text x="96" y="312" font-family="Arial, sans-serif" font-size="20" fill="white">Grade 11  •  Mount Carmel PU College  •  2026</text>
+  <g transform="translate(835 177)" fill="none" stroke="#f6c36b" stroke-width="5"><circle r="67"/><path d="M-67 0H67M0-67C27-37 27 37 0 67M0-67C-27-37-27 37 0 67"/><path d="M-51-38C-15-14 15-14 51-38M-51 38C-15 14 15 14 51 38"/></g>
+  <g filter="url(#shadow)"><rect x="72" y="382" width="936" height="178" rx="28" fill="white"/></g>
+  <text x="110" y="435" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="3" fill="#d56862">ABOUT ME</text>
+  <text x="110" y="482" font-family="Georgia, serif" font-size="30" fill="#172a4d">Curious, motivated and open to learning</text>
+  <text x="110" y="522" font-family="Arial, sans-serif" font-size="23" fill="#42536d">I am interested in business, finance, communication</text>
+  <text x="110" y="551" font-family="Arial, sans-serif" font-size="23" fill="#42536d">and creativity — and how great businesses are managed.</text>
+  <text x="72" y="632" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="3" fill="#172a4d">EXPERIENCE</text>
+  <g filter="url(#shadow)"><rect x="72" y="660" width="936" height="178" rx="28" fill="#fff"/></g>
+  <circle cx="145" cy="742" r="42" fill="#f5b9b3"/><path d="M120 747 L143 716 L168 747 L143 772Z" fill="none" stroke="#172a4d" stroke-width="4"/><path d="M143 716V772M120 747H168" stroke="#172a4d" stroke-width="4"/>
+  <text x="220" y="720" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="3" fill="#d56862">MODEL UNITED NATIONS</text>
+  <text x="220" y="766" font-family="Georgia, serif" font-size="31" fill="#172a4d">Learning through global dialogue</text>
+  <text x="220" y="805" font-family="Arial, sans-serif" font-size="22" fill="#42536d">Teamwork  •  Public Speaking  •  Representing a Country</text>
+  <text x="72" y="912" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="3" fill="#172a4d">SKILLS IN DEVELOPMENT</text>
+  <g filter="url(#shadow)"><rect x="72" y="940" width="288" height="130" rx="26" fill="#d9cff3"/><rect x="396" y="940" width="288" height="130" rx="26" fill="#f8d9a6"/><rect x="720" y="940" width="288" height="130" rx="26" fill="#f5b9b3"/></g>
+  <text x="103" y="987" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#42536d">CONNECT</text><text x="103" y="1034" font-family="Georgia, serif" font-size="31" fill="#172a4d">Communication</text>
+  <text x="427" y="987" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#42536d">LEARN</text><text x="427" y="1034" font-family="Georgia, serif" font-size="31" fill="#172a4d">Finance</text>
+  <text x="751" y="987" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#42536d">CREATE</text><text x="751" y="1034" font-family="Georgia, serif" font-size="31" fill="#172a4d">Creativity</text>
+  <g filter="url(#shadow)"><rect x="72" y="1120" width="450" height="212" rx="28" fill="white"/><rect x="558" y="1120" width="450" height="212" rx="28" fill="#172a4d"/></g>
+  <text x="110" y="1170" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#d56862">INTERESTS</text>
+  <text x="110" y="1219" font-family="Georgia, serif" font-size="27" fill="#172a4d">Western &amp; Classical Dance</text><text x="110" y="1255" font-family="Georgia, serif" font-size="27" fill="#172a4d">Fine Arts  •  Swimming</text>
+  <text x="596" y="1170" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3" fill="#f6c36b">FUTURE GOAL</text>
+  <text x="596" y="1216" font-family="Georgia, serif" font-size="26" fill="white">Pursue a degree in</text><text x="596" y="1251" font-family="Georgia, serif" font-size="26" fill="white">Business Management</text><text x="596" y="1293" font-family="Arial, sans-serif" font-size="18" fill="#dce5fa">Grow as a confident, creative leader.</text>
+  <text x="72" y="1388" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#172a4d">ACHIEVEMENTS</text>
+  <text x="315" y="1388" font-family="Arial, sans-serif" font-size="18" fill="#42536d">Dance Certificates (3–4)  •  CGMUN Participation Certificate</text>
+</svg>

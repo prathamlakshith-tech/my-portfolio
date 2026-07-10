@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lakshitha | Portfolio</title>
+  <style>
+    :root { --navy:#092247; --blue:#1257a2; --sky:#eaf3ff; --ink:#162033; --muted:#64748b; --line:#d9e2ef; --gold:#f3c46b; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); font:16px/1.6 Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; background:#fbfcfe; }
+    .wrap { width:min(1120px, calc(100% - 40px)); margin:auto; }
+    header { color:white; background:linear-gradient(120deg, #071a38, #0f4e94); padding:80px 0 72px; overflow:hidden; position:relative; }
+    header:after { content:""; width:380px; height:380px; border:45px solid rgba(255,255,255,.08); border-radius:50%; position:absolute; right:-120px; top:-170px; }
+    nav { display:flex; justify-content:space-between; align-items:center; position:relative; z-index:1; margin-bottom:80px; }
+    .logo { font-weight:800; letter-spacing:.13em; font-size:.85rem; }
+    nav a { color:#dce9ff; text-decoration:none; margin-left:22px; font-size:.9rem; }
+    .hero { display:grid; grid-template-columns:1.5fr .8fr; gap:42px; align-items:center; position:relative; z-index:1; }
+    .eyebrow { color:var(--gold); font-size:.8rem; letter-spacing:.18em; font-weight:800; text-transform:uppercase; }
+    h1 { font:clamp(3.1rem, 9vw, 6rem)/.95 Georgia, serif; margin:14px 0; letter-spacing:-.05em; }
+    .subtitle { font-size:clamp(1rem,2vw,1.35rem); color:#dce9ff; max-width:650px; }
+    .badge { border:1px solid rgba(255,255,255,.25); background:rgba(255,255,255,.1); border-radius:22px; padding:25px; text-align:center; backdrop-filter:blur(8px); }
+    .initials { width:110px; height:110px; margin:0 auto 14px; display:grid; place-items:center; border:2px solid #fff; border-radius:50%; font:3rem Georgia,serif; color:var(--gold); }
+    section { padding:76px 0; }
+    .heading { margin-bottom:30px; color:var(--navy); font-size:1.7rem; }
+    .heading small { display:block; text-transform:uppercase; letter-spacing:.16em; font-size:.72rem; color:var(--blue); margin-bottom:5px; }
+    .intro { display:grid; grid-template-columns:1.25fr .75fr; gap:28px; }
+    .card { border:1px solid var(--line); border-radius:18px; background:white; padding:28px; box-shadow:0 14px 36px rgba(17,56,101,.06); }
+    .card h3 { color:var(--navy); margin:0 0 10px; }
+    .quick { background:var(--sky); display:grid; gap:12px; }
+    .quick strong { color:var(--blue); }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .skill { padding:24px; border-radius:16px; background:white; border:1px solid var(--line); }
+    .skill span { display:block; font-size:.8rem; color:var(--blue); font-weight:800; letter-spacing:.1em; text-transform:uppercase; }
+    .skills { background:#f2f7fd; }
+    .timeline { display:grid; gap:16px; }
+    .timeline article { padding:23px 25px; background:white; border-left:5px solid var(--blue); border-radius:0 14px 14px 0; }
+    .timeline h3 { margin:0; color:var(--navy); }
+    .timeline p { margin:7px 0 0; color:var(--muted); }
+    .two { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+    ul { padding-left:20px; margin:10px 0 0; } li { margin:7px 0; }
+    footer { background:var(--navy); color:white; text-align:center; padding:48px 20px; }
+    footer p { color:#c5d7f0; margin:8px auto 0; max-width:600px; }
+    @media (max-width:760px) { .hero,.intro,.two { grid-template-columns:1fr; } .grid { grid-template-columns:1fr; } nav a { display:none; } header { padding-top:35px; } nav { margin-bottom:54px; } section { padding:56px 0; } .badge { max-width:300px; } }
+  </style>
+</head>
+<body>
+  <header id="top">
+    <div class="wrap">
+      <nav><div class="logo">LAKSHITHA</div><div><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a></div></nav>
+      <div class="hero">
+        <div><div class="eyebrow">Commerce Student • Bangalore, India</div><h1>Lakshitha</h1><p class="subtitle">Aspiring finance and business management professional with a love for learning, creativity and meaningful collaboration.</p></div>
+        <aside class="badge"><div class="initials">L</div><strong>1st PUC – Commerce</strong><br><span>Mount Carmel PU College</span></aside>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="about"><div class="wrap intro"><div class="card"><div class="heading"><small>Professional summary</small>Building a strong foundation for the future</div><p>I am a dedicated and enthusiastic commerce student with a strong interest in finance and business management. I enjoy learning new concepts, taking on challenges and participating in extracurricular activities that support my personal and academic growth.</p><p>My goal is to develop leadership skills, gain valuable experience and make a positive contribution to every opportunity I take on.</p></div><aside class="card quick"><strong>Career Objective</strong><span>Explore finance and business management while continuously improving my skills and confidence.</span><strong>Education</strong><span>Mount Carmel PU College, Bangalore<br>1st PUC – Commerce<br>2024 – Present</span></aside></div></section>
+    <section class="skills" id="skills"><div class="wrap"><div class="heading"><small>Growing every day</small>Skills in development</div><div class="grid"><div class="skill"><span>01</span><h3>Communication</h3><p>Practising clear expression through school activities and MUN.</p></div><div class="skill"><span>02</span><h3>Finance</h3><p>Building knowledge of commerce, business and financial concepts.</p></div><div class="skill"><span>03</span><h3>Creativity</h3><p>Expressing ideas through fine arts, dance and new perspectives.</p></div></div></div></section>
+    <section id="experience"><div class="wrap"><div class="heading"><small>Learning by doing</small>Experience & activities</div><div class="timeline"><article><h3>Model United Nations (MUN)</h3><p>Participated in MUN events, including CGMUN organised by school. Developed teamwork, public speaking and country representation skills.</p></article><article><h3>Dance & Fine Arts</h3><p>Participates in Western and classical dance, with 3–4 dance certificates earned through competitions and activities.</p></article><article><h3>School & Team Activities</h3><p>An active participant in cultural events, group discussions and collaborative projects.</p></article></div></div></section>
+    <section class="skills"><div class="wrap two"><div class="card"><div class="heading"><small>Recognition</small>Achievements & certificates</div><ul><li>Dance competition certificates (Western and Classical)</li><li>CGMUN participation certificate</li><li>Participated in school cultural events</li></ul></div><div class="card"><div class="heading"><small>Beyond the classroom</small>Interests & strengths</div><ul><li>Dance, fine arts and swimming</li><li>Teamwork and positive attitude</li><li>Curious learner and creative thinker</li><li>Languages: English, Kannada and basic Hindi</li></ul></div></div></section>
+  </main>
+  <footer><strong>“Every opportunity is a chance to learn, grow, and become a better version of myself.”</strong><p>© 2026 Lakshitha • Student Portfolio</p></footer>
+</body>
+</html>
