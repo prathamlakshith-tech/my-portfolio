@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" fill="none">
+  <rect width="1600" height="1200" fill="#030711"/>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <g opacity="0.9">
+    <circle cx="250" cy="230" r="3" fill="#ffffff"/>
+    <circle cx="420" cy="140" r="2" fill="#e2e8f0"/>
+    <circle cx="760" cy="260" r="2.5" fill="#ffffff"/>
+    <circle cx="980" cy="170" r="2" fill="#dbeafe"/>
+    <circle cx="1320" cy="220" r="4" fill="#f8fafc"/>
+    <circle cx="1460" cy="320" r="2.3" fill="#fff"/>
+    <circle cx="1100" cy="420" r="2" fill="#e2e8f0"/>
+    <circle cx="340" cy="480" r="3.5" fill="#ffffff"/>
+    <circle cx="640" cy="560" r="2" fill="#f8fafc"/>
+    <circle cx="1260" cy="700" r="3" fill="#ffffff"/>
+    <circle cx="900" cy="760" r="2.2" fill="#dbeafe"/>
+    <circle cx="180" cy="760" r="2.6" fill="#ffffff"/>
+    <circle cx="1450" cy="800" r="2" fill="#f8fafc"/>
+    <circle cx="560" cy="900" r="3" fill="#ffffff"/>
+    <circle cx="1150" cy="1000" r="2.5" fill="#e2e8f0"/>
+    <circle cx="760" cy="980" r="2" fill="#ffffff"/>
+  </g>
+  <g opacity="0.9">
+    <ellipse cx="1280" cy="360" rx="160" ry="110" fill="url(#nebula1)"/>
+    <ellipse cx="360" cy="860" rx="190" ry="140" fill="url(#nebula2)"/>
+  </g>
+  <g>
+    <circle cx="1290" cy="360" r="70" fill="url(#planet)"/>
+    <circle cx="1260" cy="340" r="18" fill="#ffffff" opacity="0.8"/>
+  </g>
+  <g opacity="0.75">
+    <circle cx="360" cy="860" r="54" fill="url(#planet2)"/>
+    <circle cx="332" cy="835" r="12" fill="#f8fafc" opacity="0.7"/>
+  </g>
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800 600) rotate(90) scale(700 1100)">
+      <stop stop-color="#111827"/>
+      <stop offset="0.6" stop-color="#020617"/>
+      <stop offset="1" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="nebula1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1280 360) rotate(90) scale(110 160)">
+      <stop stop-color="#3b82f6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 860) rotate(90) scale(140 190)">
+      <stop stop-color="#f59e0b" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planet" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1290 360) rotate(90) scale(70 70)">
+      <stop stop-color="#f8fafc"/>
+      <stop offset="0.5" stop-color="#94a3b8"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </radialGradient>
+    <radialGradient id="planet2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 860) rotate(90) scale(54 54)">
+      <stop stop-color="#fef3c7"/>
+      <stop offset="0.55" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#92400e"/>
+    </radialGradient>
+  </defs>
+</svg>
